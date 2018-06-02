@@ -1,0 +1,128 @@
+
+ul,
+li {
+    /* padding: 0; */
+    margin: 0;
+}
+
+body {
+    background: #ccc;
+    font-size: 14px;
+}
+
+.container {
+    width: 790px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 50px 30px;
+}
+
+.container header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid #3390cd;
+    padding-bottom: 10px;
+}
+
+.container header img {
+    height: 12px;
+}
+
+.container header .photo {
+    display: inline-block;
+    height: 136px;
+}
+
+.container header .name {
+    color: #3390cd;
+}
+
+.container header h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 36px;
+}
+
+.container .content {
+    margin-top: 30px;
+
+}
+
+.container .content .item {
+    display: flex;
+
+
+}
+
+.container .content nav {
+    position: relative;
+    width: 140px;
+    float: left;
+    color: #3390cd;
+
+}
+
+.container .content nav .content-title {
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    top: -10px;
+}
+.container .content nav .time {
+    font-size: 12px;
+    position: absolute;
+    top: 26px;
+    left: 0;
+    color: #000;
+}
+
+.container .content nav .time2 {
+    top: 216px;
+}
+
+.container .content nav .time3 {
+    top: 388px;
+}
+
+.container .content .item-body {
+    position: relative;
+    /* display: inline-block; */
+    width: 650px;
+    border-top: 4px solid #3390cd;
+    padding: 20px 20px 0;
+    margin-bottom: 20px;
+    border-left: 1px dashed #3390cd;
+}
+
+.container .content .item-body .title {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.container .content .item-body .title-left {
+    width: 340px;
+    display: inline-block;
+}
+
+.container .content .item-body .title .knot {
+    position: absolute;
+    left: -28px;
+    top: 2px;
+    width: 14px;
+}
+
+.container .content .item-body .project-item {
+    margin-bottom: 10px;
+}
+
+.item img {
+    position: absolute;
+    top: -19px;
+    left: -17px;
+    width: 32px;
+}
+
+#travels {
+    width: 100%;
+    height: 300px;
+}
